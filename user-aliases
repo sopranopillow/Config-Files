@@ -18,4 +18,5 @@ add=git add $*
 status=git status $*
 commit=git commit $*
 push=git push $*
+branch=git branch $*
 g=git $*
