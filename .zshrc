@@ -13,7 +13,7 @@ function yw {
 }
 
 function ybt {
-        yarn buildto @fluentui/"$1"
+        yarn buildto "$1"
 }
 
 function ywci {
@@ -21,4 +21,10 @@ function ywci {
         ybt "$1"
         yw "$1" test
         yw "$1" lint
+}
+
+function ys {
+        y
+        ybt "$1"
+        yw "$1" start
 }
