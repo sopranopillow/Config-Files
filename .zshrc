@@ -21,6 +21,7 @@ function ywci {
         ybt "$1"
         yw "$1" test
         yw "$1" lint
+        yw "$1" type-check
 }
 
 function ys {
