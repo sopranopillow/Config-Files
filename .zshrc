@@ -7,6 +7,8 @@ alias push="git push"
 alias pull="git pull"
 alias branch="git branch"
 alias g="git"
+alias cde="code-insiders"
+
 
 function yw {
         yarn workspace @fluentui/"$1" "$2"
